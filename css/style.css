@@ -11,7 +11,7 @@ margin: 0;
 /* Removed min-width because some phones are narrower than 500px */
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #a68a64;
   text-align: left;
 /*  min-width: 500px; */
 }
@@ -47,11 +47,11 @@ h1 {
 
 h2 {
   font-family: 'Domine', serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #a68a64;
   padding: 10px 0px 10px 10px;
 }
 
@@ -92,7 +92,7 @@ img {
 }
 
 .myButton:hover {
-  background-color:#e69708;
+  background-color: rgba(255,0,0,1);
 }
 
 .myButton:active {
@@ -123,7 +123,7 @@ img {
 .mins {
   display: inline-block;
   font-family: 'Domine', serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
@@ -134,7 +134,7 @@ img {
 
 .description {
   font-family: 'Inter', serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
@@ -149,6 +149,10 @@ img {
   height: 21.1px;
   object-fit: contain;
   padding: 20px;
+}
+
+a {
+  color: #81b29a;
 }
 
 /* Removed min-width because some phones are narrower than 500px */
